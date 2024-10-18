@@ -1,6 +1,5 @@
 import time
 import json
-import random
 import datetime
 import os.path as op
 from bs4 import BeautifulSoup
@@ -19,22 +18,13 @@ def create_paths():
     return all_offers_path, my_offers_path
 
 
-def wait_some_time(start_time):
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    seconds = round(random.uniform(3, 5.1), 3)
-    time_to_wait = seconds - elapsed_time if seconds - elapsed_time > 0 else random.uniform(0.5, 1.1)
-    print('elapsed: ' + str(round(elapsed_time, 2)) + '  |  ' + 'wait: ' + str(round(time_to_wait, 2)), end='\n')
-    time.sleep(time_to_wait)
-
-
 def write_to_json(offers_dict, path):
     offers_json = json.dumps(offers_dict, indent=2)
     with open(path, "w") as outfile:
         outfile.write(offers_json)
 
 
-def specify_driver_options(url, is_recursed=False):
+def specify_driver_options(url):
     chrome_options = Options()
     # chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--window-position=-2400,-2400")  # remove this line once -headless=new works again
@@ -80,7 +70,7 @@ def extract_from_offer(global_url, offer, all_offers_dict, my_offers_dict):
     title = offer.find('h2').text.strip().lower()
     company = offer.find('span').text.strip()
     all_offers_dict[url] = [title, company]
-    if any(snippet in title for snippet in ['senior', 'vanem', 'sr.', 'sr ']):
+    if any(snippet in title for snippet in ['senior', 'vanem', 'sr.', 'sr ', 'lead', 'manager']):
         return None
     if any(snippet in title for snippet in ['junior', 'jr.']):
         print('\n JUNIOR!! \n')
