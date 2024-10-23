@@ -58,7 +58,7 @@ def scroll_for_offers(driver, repetitions, seconds):
     return list(offers_html)
 
 
-def get_soup_meetfrank(url_snippet):
+def get_offer_htmls(url_snippet):
     driver = specify_driver_options(url_snippet)
     offers_html = scroll_for_offers(driver, repetitions=1000, seconds=2)
     driver.quit()
@@ -78,12 +78,14 @@ def extract_from_offer(global_url, offer, all_offers_dict, my_offers_dict):
     my_offers_dict[url] = [title, company]
 
 
-def get_relevant_offers(categories):
+def meet_frank_main():
+    categories = ['/latest-remote-software-engineering-jobs-in-estonia', '/latest-remote-it-and-sysadmin-jobs-in-estonia',
+                  '/latest-remote-data-analytics-jobs-in-estonia']
     all_offers_path, my_offers_path = create_paths()
     global_url = 'https://meetfrank.com'
     offers_html = []
     for category_url in categories:
-        offers_from_category = get_soup_meetfrank(global_url + category_url)
+        offers_from_category = get_offer_htmls(global_url + category_url)
         offers_html.extend(offers_from_category)
         print(f'category {categories.index(category_url)} end')
     offers_html = [elem for elem in offers_html if elem.find('a')]
@@ -97,5 +99,5 @@ def get_relevant_offers(categories):
     write_to_json(my_offers_dict, my_offers_path)
 
 
-get_relevant_offers(['/latest-remote-software-engineering-jobs-in-estonia', '/latest-remote-it-and-sysadmin-jobs-in-estonia',
-                     '/latest-remote-data-analytics-jobs-in-estonia'])
+if __name__ == "__main__":
+    meet_frank_main()
