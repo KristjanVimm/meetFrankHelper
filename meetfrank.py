@@ -39,7 +39,7 @@ def specify_driver_options(url):
 def gather_offer_htmls(driver, offers_html):
     html = driver.page_source
     soup = BeautifulSoup(html, features='html.parser')
-    offers_html.update(soup.find('div', class_='c0 c2').find_all('div', recursive=False))
+    offers_html.update(soup.find('div', class_='c6 c8').find_all('div', recursive=False))
     print(len(offers_html))
 
 

@@ -1,0 +1,286 @@
+{
+  "https://meetfrank.com/jobs/trumo-finance/python-developer-2": [
+    "python developer",
+    "Trumo Finance"
+  ],
+  "https://meetfrank.com/jobs/eeedo-oy/devops-specialist-kubernetes-gitops-google-cloud": [
+    "devops specialist, kubernetes, gitops, google cloud",
+    "eeedo oy"
+  ],
+  "https://meetfrank.com/jobs/thorgate-management-ou-2/full-stack-developer-in-waybiller": [
+    "full-stack developer in waybiller",
+    "Thorgate"
+  ],
+  "https://meetfrank.com/jobs/coolbet/site-reliability-engineer-tooling-team": [
+    "site reliability engineer - tooling team",
+    "Coolbet"
+  ],
+  "https://meetfrank.com/jobs/rush-street-interactive/server-engineer-7": [
+    "server engineer",
+    "Rush Street Interactive"
+  ],
+  "https://meetfrank.com/jobs/tickmill-services-ou/mobile-quality-assurance-engineer": [
+    "mobile quality assurance engineer",
+    "Tickmill Services O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/enlabs-2/golang-engineer-3": [
+    "golang engineer",
+    "Entain Baltics & Nordics"
+  ],
+  "https://meetfrank.com/jobs/navinmedia-ou/front-end-developer-react-5": [
+    "front end developer (react)",
+    "SoftHaus O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/sk-id-solutions-as/qa-automation-engineer-2": [
+    "qa automation engineer",
+    "SK ID Solutions AS"
+  ],
+  "https://meetfrank.com/jobs/gotoandplay-ou/full-stack-developer-in-estonia": [
+    "full-stack developer in estonia",
+    "gotoAndPlay O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/crespect-ou/full-stack-software-engineer": [
+    "full-stack software engineer",
+    "Crespect O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/raintree-estonia/php-software-engineer": [
+    "php software engineer",
+    "Raintree Systems"
+  ],
+  "https://meetfrank.com/jobs/rmit/devops-arendaja-7": [
+    "devops arendaja",
+    "RMIT"
+  ],
+  "https://meetfrank.com/jobs/inbank-4/product-engineer-backend": [
+    "product engineer (backend)",
+    "Inbank"
+  ],
+  "https://meetfrank.com/jobs/cybercube-analytics-digital-ou/site-reliability-engineer-2": [
+    "site reliability engineer",
+    "CyberCube Analytics Digital O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/scale3c/flutter-developer": [
+    "flutter developer",
+    "Scale3C"
+  ],
+  "https://meetfrank.com/jobs/inbank-4/product-engineer-front-end": [
+    "product engineer (front-end)",
+    "Inbank"
+  ],
+  "https://meetfrank.com/jobs/coingaming/elixir-developer-for-the-casino-solutions-team": [
+    "elixir developer for the casino solutions team",
+    "Yolo Group"
+  ],
+  "https://meetfrank.com/jobs/gwi/staff-full-stack-software-engineer": [
+    "staff full-stack software engineer",
+    "GWI"
+  ],
+  "https://meetfrank.com/jobs/domestack-2/full-stack-java-developer-2": [
+    "full stack java developer",
+    "DomeStack"
+  ],
+  "https://meetfrank.com/jobs/coingaming/automation-qa-for-risk-and-compliance": [
+    "automation qa for risk and compliance",
+    "Yolo Group"
+  ],
+  "https://meetfrank.com/jobs/concise-systems/fullstack-developer": [
+    "full-stack developer",
+    "Concise Systems"
+  ],
+  "https://meetfrank.com/jobs/appsilon/platform-engineer": [
+    "platform engineer",
+    "Appsilon"
+  ],
+  "https://meetfrank.com/jobs/bolt/site-reliability-engineer-platform-team-2": [
+    "site reliability engineer, platform team",
+    "Bolt"
+  ],
+  "https://meetfrank.com/jobs/upvest/product-engineer-trading-fmd-2": [
+    "product engineer - trading (f/m/d)",
+    "Upvest"
+  ],
+  "https://meetfrank.com/jobs/scale3c/python-developer": [
+    "python developer",
+    "Scale3C"
+  ],
+  "https://meetfrank.com/jobs/bolt/cybersecurity-engineer-product-security-2": [
+    "cybersecurity engineer, product security",
+    "Bolt"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/ml-platform-engineer": [
+    "ml platform engineer",
+    "Pipedrive"
+  ],
+  "https://meetfrank.com/jobs/canonical/software-engineer-openstack": [
+    "software engineer - openstack",
+    "Canonical"
+  ],
+  "https://meetfrank.com/jobs/percona-2/quality-engineer-mongodb-remote-2": [
+    "quality engineer (mongodb) - remote",
+    "Percona"
+  ],
+  "https://meetfrank.com/jobs/breakwater-technology-ou/platform-devops-engineer": [
+    "platform (devops) engineer",
+    "Breakwater Technology O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/upvest/product-engineer-trading-integrations-fmd": [
+    "product engineer - trading integrations (f/m/d)",
+    "Upvest"
+  ],
+  "https://meetfrank.com/jobs/inbank-4/workplace-services-engineer": [
+    "workplace services engineer",
+    "Inbank"
+  ],
+  "https://meetfrank.com/jobs/percona-2/quality-engineer-mongodb-remote": [
+    "quality engineer (mongodb) - remote",
+    "Percona"
+  ],
+  "https://meetfrank.com/jobs/percona-2/quality-engineer-mongodb-remote-3": [
+    "quality engineer (mongodb) - remote",
+    "Percona"
+  ],
+  "https://meetfrank.com/jobs/veriff/information-security-engineer-3": [
+    "information security engineer",
+    "Veriff"
+  ],
+  "https://meetfrank.com/jobs/sensorfact/iot-engineer-2": [
+    "iot engineer",
+    "Sensorfact"
+  ],
+  "https://meetfrank.com/jobs/breakwater-technology-ou/database-administrator-postgresql": [
+    "database administrator (postgresql)",
+    "Breakwater Technology O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/percona-2/redisvalkey-database-engineer": [
+    "redis/valkey database engineer",
+    "Percona"
+  ],
+  "https://meetfrank.com/jobs/luminor-bank-as-2/site-reliability-engineer-3": [
+    "site reliability engineer",
+    "Luminor Group"
+  ],
+  "https://meetfrank.com/jobs/planner5d-uab/python-developer-to-labs-team": [
+    "python developer to labs team",
+    "Planner5D UAB"
+  ],
+  "https://meetfrank.com/jobs/percona-2/quality-engineer-mongodb": [
+    "quality engineer (mongodb)",
+    "Percona"
+  ],
+  "https://meetfrank.com/jobs/whirrcrew/full-stack-developer-python-javascript-remote-eu-based": [
+    "full stack developer / python, javascript (remote, eu based)",
+    "WhirrCrew"
+  ],
+  "https://meetfrank.com/jobs/monese/internal-it-specialist-2": [
+    "internal it specialist",
+    "Monese"
+  ],
+  "https://meetfrank.com/jobs/bolt/it-support-specialist-4": [
+    "it support specialist",
+    "Bolt"
+  ],
+  "https://meetfrank.com/jobs/sumsub/application-security-engineer": [
+    "application security engineer",
+    "Sumsub"
+  ],
+  "https://meetfrank.com/jobs/renewcast/data-engineer": [
+    "data engineer",
+    "Renewcast"
+  ],
+  "https://meetfrank.com/jobs/bolt/data-analyst-business-analytics-commercial-delivery": [
+    "data analyst, business analytics & commercial (delivery)",
+    "Bolt"
+  ],
+  "https://meetfrank.com/jobs/viabill/data-scientist-machine-learning-engineer-remote": [
+    "data scientist / machine learning engineer, remote",
+    "ViaBill"
+  ],
+  "https://meetfrank.com/jobs/tomorrowone/data-scientist-fmx": [
+    "data scientist (f/m/x)",
+    "Tomorrow.one"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/enterprise-data-architect-2": [
+    "enterprise data architect",
+    "Pipedrive"
+  ],
+  "https://meetfrank.com/jobs/ipf-digital-4/business-intelligent-analyst": [
+    "business intelligent analyst",
+    "IPF Digital"
+  ],
+  "https://meetfrank.com/jobs/appsilon/r-developer-with-life-science-background": [
+    "r developer with life science background",
+    "Appsilon"
+  ],
+  "https://meetfrank.com/jobs/up-invest-ou-2/ariandmete-analuutik": [
+    "\u00e4riandmete anal\u00fc\u00fctik",
+    "MM Grupp O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/nabuminds-ou/insight-analyst-2": [
+    "insight analyst",
+    "NabuMinds O\u00dc"
+  ],
+  "https://meetfrank.com/jobs/bolt/staff-data-scientist-investment-modelling": [
+    "staff data scientist, investment modelling",
+    "Bolt"
+  ],
+  "https://meetfrank.com/jobs/st-gallen-endowment-for-prosperity-through-trade/data-anlalyst-30-35-hoursweek-remote-gmt1": [
+    "data anlalyst (30-35 hours/week, remote, gmt\u00b11)",
+    "St. Gallen Endowment for Prosperity through Trade"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/ml-engineer-3": [
+    "ml engineer",
+    "Pipedrive"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/data-engineer": [
+    "data engineer",
+    "Pipedrive"
+  ],
+  "https://meetfrank.com/jobs/luminor-bank-as-2/data-analyst-4": [
+    "data analyst",
+    "Luminor Group"
+  ],
+  "https://meetfrank.com/jobs/tidio/machine-learning-analyst-2": [
+    "machine learning analyst",
+    "Tidio"
+  ],
+  "https://meetfrank.com/jobs/whirrcrew/data-engineersnowflake-and-matillion-europe-based": [
+    "data engineer/snowflake and matillion (europe-based)",
+    "WhirrCrew"
+  ],
+  "https://meetfrank.com/jobs/coolbet/data-warehouse-developer-2": [
+    "data warehouse developer",
+    "Coolbet"
+  ],
+  "https://meetfrank.com/jobs/upvest/data-product-engineer-fmd": [
+    "data product engineer (f/m/d)",
+    "Upvest"
+  ],
+  "https://meetfrank.com/jobs/cloudmore-ab/technical-analyst": [
+    "technical analyst",
+    "Cloudmore AB"
+  ],
+  "https://meetfrank.com/jobs/binance/special-investigations-specialist-special-projects": [
+    "special investigations specialist - special projects",
+    "Binance"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/software-engineer-with-gen-ai-expertise": [
+    "software engineer with gen ai expertise",
+    "Pipedrive"
+  ],
+  "https://meetfrank.com/jobs/welocalize-life-science/internet-reviewer-remote": [
+    "internet reviewer (remote)",
+    "Welocalize Life Science"
+  ],
+  "https://meetfrank.com/jobs/malwarebytes-/product-analyst": [
+    "product analyst",
+    "Malwarebytes"
+  ],
+  "https://meetfrank.com/jobs/fuseox/it-analyst": [
+    "it analyst",
+    "Fusebox"
+  ],
+  "https://meetfrank.com/jobs/pipedrive/ml-engineer-2": [
+    "ml engineer",
+    "Pipedrive"
+  ]
+}
