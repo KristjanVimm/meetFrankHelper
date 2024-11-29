@@ -9,10 +9,10 @@ class TestMeetFrank(TestCase):
     def test_extract_from_offer(self):
         with open('test_html_code.json', 'r', encoding='UTF_8') as f:
             inputs_outputs = json.load(f)
-        all_offers_dict, my_offers_dict = {}, {}
+        all_offers_dict, my_offers_dict, previous_offers, new_alltime_offers_dict = {}, {}, {}, {}
         for testcase in inputs_outputs:
             offer = BeautifulSoup(testcase['offer'], 'html.parser')
-            extract_from_offer('https://meetfrank.com', offer, all_offers_dict, my_offers_dict)
+            extract_from_offer('https://meetfrank.com', offer, all_offers_dict, my_offers_dict, previous_offers, new_alltime_offers_dict)
             with self.subTest(testcase['test_name']):
                 self.assertEqual(first=all_offers_dict,
                                  second=(testcase['all_offers_dict_result']),
@@ -25,7 +25,7 @@ class TestMeetFrank(TestCase):
 
     # checks whether a realistic amount of offers is scraped from an actual URL
     def test_get_soup_meetfrank(self):
-        offers_html = get_offer_htmls('https://meetfrank.com/latest-remote-data-analytics-jobs-in-estonia')
+        offers_html = get_offer_htmls('https://meetfrank.com/latest-remote-data-analytics-jobs-in-estonia', "test_message")
         self.assertGreater(a=len(offers_html), b=2, msg='Problem finding offer elements from meetFrank')
 
 
